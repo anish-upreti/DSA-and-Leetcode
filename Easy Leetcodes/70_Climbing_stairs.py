@@ -14,8 +14,5 @@ class Solution:
 
         return curr
     
-
-# Alternate solution
-
        
 
