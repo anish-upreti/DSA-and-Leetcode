@@ -14,5 +14,8 @@ class Solution:
                 l = m + 1
             
         return -1
+    
+## time - log n
+## space - O(1)
 
         
