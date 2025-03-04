@@ -1,5 +1,5 @@
 class MinStack:
-    
+
     def __init__(self):
         self.stk = []
         self.min_stk = []
@@ -10,9 +10,9 @@ class MinStack:
         if not self.min_stk:
             self.min_stk.append(val)
         elif self.min_stk[-1] > val:
-            self.min_stk.append(self.min_stk[-1])
-        else:
             self.min_stk.append(val)
+        else:
+            self.min_stk.append(self.min_stk[-1])
 
     def pop(self) -> None:
         self.stk.pop()
