@@ -14,4 +14,7 @@ class Solution:
                 curr = curr.next
         
         return head
+    
+## time - O(n)
+## space - O(1)
         
