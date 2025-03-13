@@ -28,7 +28,7 @@ class Solution:
                 queue.append((node.right, depth + 1))
 
     ## Time - O(n)
-    ## space - O(n)
+    ## space - O(maximum width of the tree)
 
 
 ## Alternate solution
