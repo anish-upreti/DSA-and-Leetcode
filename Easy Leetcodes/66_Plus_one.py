@@ -11,3 +11,7 @@ class Solution:
                 return digits
         # if all the elements are 9, then insert 1 at the beginning of the list
         return [1] + digits
+    
+
+## Time - O(n)
+## space - O(1)
