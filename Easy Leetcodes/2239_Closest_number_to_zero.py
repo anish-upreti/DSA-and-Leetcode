@@ -12,3 +12,4 @@ class Solution:
             return closest
 
 # Time - O(n)
+## space - O(1)
